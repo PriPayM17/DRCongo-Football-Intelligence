@@ -8,6 +8,7 @@ The project begins with a global, source-documented registry of Congolese profes
 
 # Mission
 To use data, research, and technology to develop better information and insights about Congolese football and support more informed decision-making across the football ecosystem.
+
 # Initial Research Project
 # Global Congolese Player Registry
 The first stage of the project will document where Congolese professional footballers are playing around the world.
@@ -32,6 +33,20 @@ Do not manufacture certainty — limitations and missing information should be d
 Preserve data provenance — records should retain information about where and when data was obtained.
 Keep raw data separate from processed data — transformations should be documented and reproducible.
 Treat players as people — quantitative analysis should complement, not replace, human context.
+
+# Future Direction
+Future stages may include:
+Global player profiles
+Player performance analysis
+National-team analysis
+Player similarity analysis
+Recruitment and club-fit research
+Youth player monitoring
+Diaspora player research
+Transfer pathway analysis
+Football data visualizations
+Research reports
+Public-facing football intelligence tools
 
 # Technology
 The project will progressively use tools including:
