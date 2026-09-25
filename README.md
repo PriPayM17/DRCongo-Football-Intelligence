@@ -1,9 +1,11 @@
 # DRCongo-Football-Intelligence
 An independent data and research project studying Congolese football, players, pathways, performance, recruitment, and the Leopards.
-Overview
+
+# Overview
 Congolese Football Intelligence is an independent data and research project focused on studying Congolese football through data, analytics, research, and technology.
 The project aims to improve understanding of Congolese players, player development, recruitment pathways, national-team performance, youth development, and the broader football ecosystem.
 The project begins with a global, source-documented registry of Congolese professional footballers.
+
 Mission
 To use data, research, and technology to develop better information and insights about Congolese football and support more informed decision-making across the football ecosystem.
 Initial Research Project
