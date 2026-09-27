@@ -1,1 +1,102 @@
+# Data Source Methodology
 
+## Purpose
+
+This document establishes how information is sourced, verified,
+recorded, and updated for the Congolese Football Intelligence project.
+
+The goal is to maintain data that is traceable, reproducible, and
+supported by documented sources.
+
+---
+
+## Core Principle
+
+> No source → no fact.
+
+Important factual claims should have a documented source.
+
+When information cannot be verified, it should remain blank or be
+explicitly marked as unknown rather than being guessed.
+
+---
+
+## Source Hierarchy
+
+### Tier 1 — Official / Primary Sources
+
+Preferred whenever available:
+
+- FECOFA
+- CAF
+- FIFA
+- Official national federations
+- Official football clubs
+- Official leagues and competitions
+
+### Tier 2 — Established Football Data Sources
+
+Used when primary sources do not provide the required information.
+
+### Tier 3 — Reputable Journalism
+
+Used as supporting or secondary evidence.
+
+### Tier 4 — Secondary / Community Sources
+
+Examples include Wikipedia, fan websites, and non-official social-media
+accounts.
+
+These sources may be useful for discovery but should be verified against
+higher-priority sources when possible.
+
+---
+
+## Source Selection Rules
+
+1. Prefer primary sources for official decisions, selections, fixtures,
+   results, and player registration information.
+2. Use the most direct source available for each fact.
+3. Record the source URL for important data.
+4. Record the date on which information was verified.
+5. Do not guess missing information.
+6. If reliable sources disagree, investigate the discrepancy rather than
+   silently choosing one.
+7. Preserve the original source terminology when useful and create a
+   separate standardized field for analysis.
+
+---
+
+## Conflicting Information
+
+When two sources disagree:
+
+1. Check whether the information refers to the same date or period.
+2. Check the primary/official source.
+3. Check additional reputable sources if necessary.
+4. Document the discrepancy when it cannot be resolved.
+5. Do not manufacture certainty.
+
+---
+
+## Date and Time Considerations
+
+Football information can change over time.
+
+For example, a player's club at the time of a September 2026 national-team
+call-up may differ from the player's club several months later.
+
+Therefore, information should be interpreted in relation to the relevant
+date or call-up window.
+
+---
+
+## Verification
+
+Each important record should include:
+
+- data_source
+- source_url
+- last_verified
+
+This allows future updates and auditing of the dataset.
