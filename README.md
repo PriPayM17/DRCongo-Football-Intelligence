@@ -10,13 +10,13 @@ The project begins with a global, source-documented registry of Congolese profes
 To use data, research, and technology to develop better information and insights about Congolese football and support more informed decision-making across the football ecosystem.
 
 # Initial Research Project
-# Global Congolese Player Registry
+## Global Congolese Player Registry
 The first stage of the project will document where Congolese professional footballers are playing around the world.
 The initial research question is:
 Where are Congolese professional footballers playing globally, and how are they distributed by country, league, position, age, and club level?
 Each player record will include documented sources and a verification date.
 
-# Research Areas
+## Research Areas
 As the project develops, it will explore several areas of Congolese football intelligence:
 Player Intelligence
 Recruitment Intelligence
@@ -25,7 +25,7 @@ Youth Intelligence
 Diaspora Intelligence
 Historical Football Intelligence
 
-# Data Principles
+## Data Principles
 This project follows several principles:
 Source everything — important facts should have a documented source.
 Separate facts from analysis — data and interpretation should not be presented as the same thing.
@@ -34,7 +34,29 @@ Preserve data provenance — records should retain information about where and w
 Keep raw data separate from processed data — transformations should be documented and reproducible.
 Treat players as people — quantitative analysis should complement, not replace, human context.
 
-# Future Direction
+## Project Structure
+congolese-football-intelligence/
+│
+├── docs/
+│   ├── data_dictionary.md
+│   ├── project_charter.md
+│   └── research_questions.md
+│   └── source_methodology.md
+│
+├── data/
+│   └── raw/
+│
+├── notebooks/
+├── src/
+├── sql/
+├── dashboards/
+└── reports/
+
+## Status
+Current stage: **Project Foundation / Global Player Registry**
+The first milestone is to build and validate an initial player dataset before expanding the project into larger analytical and research applications.
+
+## Future Direction
 Future stages may include:
 Global player profiles
 Player performance analysis
@@ -48,7 +70,7 @@ Football data visualizations
 Research reports
 Public-facing football intelligence tools
 
-# Technology
+## Technology
 The project will progressively use tools including:
 Python
 SQL
@@ -60,3 +82,5 @@ NumPy
 scikit-learn
 Jupyter
 Data visualization libraries
+
+The first stage of the project will document where Congolese professional footballers are playing around the world.
