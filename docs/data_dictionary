@@ -71,3 +71,41 @@ for analysis as the project grows.
 | substitution_off | Minute at which player left, if applicable | Integer | 0 or greater / blank |
 | goals | Goals scored by the player | Integer | 0 or greater |
 | assists | Assists credited to the player | Integer | 0 or greater |
+
+## Data Model
+
+The initial project uses four related entities:
+
+### Players
+
+Contains information about individual footballers.
+
+Primary identifier:
+`player_id`
+
+### National Team Call-Ups
+
+Contains records of players selected for a specific national-team
+international window.
+
+Primary identifier:
+`callup_id`
+
+Links to:
+`player_id`
+
+### National Team Matches
+
+Contains information about matches involving the DR Congo national team.
+
+Primary identifier:
+`match_id`
+
+### Player Match Appearances
+
+Contains information about individual player participation in a
+specific national-team match.
+
+Uses:
+`match_id`
+`player_id`
