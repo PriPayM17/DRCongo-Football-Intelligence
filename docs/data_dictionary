@@ -1,1 +1,73 @@
+# Data Dictionary
 
+## Purpose
+
+This document defines the fields, formats, standards, and rules used
+in the Congolese Football Intelligence project.
+
+The purpose of the data dictionary is to ensure that information is
+collected consistently, interpreted consistently, and remains usable
+for analysis as the project grows.
+
+---
+
+## Table: players
+
+| Field | Description | Data Type | Format / Allowed Values |
+|---|---|---|---|
+| player_id | Permanent unique identifier assigned to a player | Text | COD000001, COD000002, etc. |
+| first_name | Player's verified first name | Text | Standard text |
+| last_name | Player's verified last name | Text | Standard text |
+| full_name | Combination of verified first and last names | Text | First name + space + last name |
+| date_of_birth | Player's date of birth | Date | YYYY-MM-DD |
+| nationality | Player's documented nationality | Text | Standard country name |
+
+---
+
+## Table: national_team_callups
+
+| Field | Description | Data Type | Format / Allowed Values |
+|---|---|---|---|
+| callup_id | Unique identifier for a national-team call-up record | Text | CALLUP000001, etc. |
+| player_id | Permanent identifier linking the call-up to a player | Text | Existing player_id |
+| position_source | Position category exactly as reported by the source | Text | Source terminology |
+| position_group | Standardized position category used for analysis | Text | Goalkeeper, Defender, Midfielder, Forward |
+| club_at_callup | Player's club at the time of the call-up | Text | Official club name |
+| club_country | Country where the player's club is located | Text | Standard country name |
+| league | League in which the club competes at the time of the call-up | Text | Standard competition name |
+| callup_window | Dates covered by the national-team selection | Date range | YYYY-MM-DD to YYYY-MM-DD |
+| competition_name | Competition associated with the call-up | Text | e.g. Africa Cup of Nations |
+| competition_edition | Edition/year of the competition | Integer | e.g. 2027 |
+| competition_type | Type of international activity | Text | Qualifier, Friendly, Tournament, etc. |
+| callup_status | Player's status within the selection | Text | Selected, Replacement, Withdrawn |
+| data_source | Organization/source from which the information was obtained | Text | e.g. FECOFA |
+| source_url | URL of the source | URL/Text | Full source URL |
+| last_verified | Date on which the record was last checked | Date | YYYY-MM-DD |
+
+---
+
+## Table: national_team_matches
+
+| Field | Description | Data Type | Format / Allowed Values |
+|---|---|---|---|
+| match_id | Unique identifier for a national-team match | Text | MATCH000001, etc. |
+| date | Date of the match | Date | YYYY-MM-DD |
+| opponent | Opposing national team | Text | Standard country/team name |
+| competition | Competition associated with the match | Text | Standard competition name |
+| venue | Stadium/venue where the match was played | Text | Standard venue name |
+| result | Match result from DR Congo's perspective | Text | Win, Draw, Loss |
+
+---
+
+## Table: player_match_appearances
+
+| Field | Description | Data Type | Format / Allowed Values |
+|---|---|---|---|
+| match_id | Identifier linking the appearance to a match | Text | Existing match_id |
+| player_id | Identifier linking the appearance to a player | Text | Existing player_id |
+| started | Whether the player started the match | Boolean | Yes / No |
+| minutes_played | Number of minutes played | Integer | 0 or greater |
+| substitution_on | Minute at which player entered, if applicable | Integer | 0 or greater / blank |
+| substitution_off | Minute at which player left, if applicable | Integer | 0 or greater / blank |
+| goals | Goals scored by the player | Integer | 0 or greater |
+| assists | Assists credited to the player | Integer | 0 or greater |
