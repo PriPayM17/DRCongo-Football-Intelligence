@@ -54,6 +54,7 @@ congolese-football-intelligence/
 
 ## Status
 Current stage: **Project Foundation / Global Player Registry**
+
 The first milestone is to build and validate an initial player dataset before expanding the project into larger analytical and research applications.
 
 ## Future Direction
