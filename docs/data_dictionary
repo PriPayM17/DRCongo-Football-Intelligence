@@ -74,7 +74,21 @@ for analysis as the project grows.
 
 ## Data Model
 
-The initial project uses four related entities:
+The initial CFI data model contains four related entities:
+
+Players
+    |
+    | player_id
+    ↓
+National Team Call-Ups
+    |
+    | player_id
+    ↓
+Player-Match Appearances
+    ↑
+    | match_id
+    |
+National Team Matches
 
 ### Players
 
