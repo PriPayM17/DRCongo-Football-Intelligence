@@ -27,11 +27,17 @@ Historical Football Intelligence
 
 ## Data Principles
 This project follows several principles:
+
 Source everything — important facts should have a documented source.
+
 Separate facts from analysis — data and interpretation should not be presented as the same thing.
+
 Do not manufacture certainty — limitations and missing information should be documented.
+
 Preserve data provenance — records should retain information about where and when data was obtained.
+
 Keep raw data separate from processed data — transformations should be documented and reproducible.
+
 Treat players as people — quantitative analysis should complement, not replace, human context.
 
 ## Project Structure
