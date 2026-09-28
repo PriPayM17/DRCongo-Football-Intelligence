@@ -53,7 +53,6 @@ Treat players as people — quantitative analysis should complement, not replace
 congolese-football-intelligence/
 
 │
-
 ├── docs/
 
 │   ├── data_dictionary.md
@@ -65,7 +64,6 @@ congolese-football-intelligence/
 │   └── source_methodology.md
 
 │
-
 ├── data/
 
 │   └── raw/
