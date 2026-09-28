@@ -36,10 +36,11 @@ Preferred whenever available:
 
 ### Tier 2 — Established Football Data Sources
 
-Used when primary sources do not provide the required information.
-Examples include FBref, an accepted secondary football-data source. Where 
-a primary source is unavailable, FBref may be used, with its limitations 
-documented.
+- FBref: treated as an established secondary football-data source. 
+It may be used when primary sources do not provide the required information, 
+but its coverage limitations are considered and important information should 
+be cross-checked when possible.
+- Other reputable statistical databases
 
 ### Tier 3 — Reputable Journalism
 
