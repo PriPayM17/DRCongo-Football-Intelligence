@@ -22,6 +22,10 @@ for analysis as the project grows.
 | date_of_birth | Player's date of birth | Date | YYYY-MM-DD |
 | nationality | Player's documented nationality | Text | Standard country name |
 
+Note: Club continent is classified according to the football ecosystem/confederation in which the club 
+competes. Transcontinental countries are therefore assigned according to their football competition 
+context rather than purely geographic boundaries.
+We may add a CONFEDERATION (UEFA, CAF, CONMEBOL, CONCACAF, AFC, OFC) field later.
 ---
 
 ## Table: national_team_callups
