@@ -35,6 +35,7 @@ for analysis as the project grows.
 | club_at_callup | Player's club at the time of the call-up | Text | Official club name |
 | club_country | Country where the player's club is located | Text | Standard country name |
 | league | League in which the club competes at the time of the call-up | Text | Standard competition name |
+| club_continent | Continent where the player's club is located | Text | Standard competition name |
 | callup_window | Dates covered by the national-team selection | Date range | YYYY-MM-DD to YYYY-MM-DD |
 | competition_name | Competition associated with the call-up | Text | e.g. Africa Cup of Nations |
 | competition_edition | Edition/year of the competition | Integer | e.g. 2027 |
